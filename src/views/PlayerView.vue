@@ -8,7 +8,7 @@
       allowfullscreen
     ></iframe>
   </div>
-  <div class="py-2 px-5">
+  <div class="py-2">
     <p class="title px-5 m-0 p-0">{{ title }}</p>
   </div>
   <hr class="m-0 bg-light" />
@@ -80,6 +80,16 @@ export default {
   }
   .title {
     font-size: 1em;
+  }
+}
+@media screen and (max-width: 600px) {
+  .player {
+    width: 300px;
+    height: 180px;
+  }
+  .title{
+    padding-left: 1em;
+    padding-right: 1em;
   }
 }
 </style>

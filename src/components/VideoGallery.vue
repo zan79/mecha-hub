@@ -12,7 +12,7 @@
 </template>
 
 <script>
-import VidData from "../database/db.json";
+import VidData from "../assets/database/db.json";
 import VideoCon from "@/components/VideoContainer.vue";
 
 export default {

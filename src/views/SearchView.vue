@@ -12,7 +12,7 @@
 // @ is an alias to /src
 import { useRoute } from "vue-router";
 import axios from "axios";
-import VidData from "../database/db.json";
+import VidData from "../assets/database/db.json";
 
 export default {
   name: "SearchView",
